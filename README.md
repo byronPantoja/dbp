@@ -40,7 +40,7 @@ I'm creating this React portfolio repository for a few reasons. Firstly, it's a 
 | Home     | Profile, #Contact              | `/home`, `/home#contact` |
 | Projects | Title, Projects Grid           | `/projects`              |
 | Project  | Featured Image, Title, Content | `/projects/${projectId}` |
-| Notes    | Notes                          | `/notes`, `/notes`       |
+| Notes    | Notes                          | `/notes`                 |
 | Note     | Note                           | `/notes/${noteId}`,      |
 | 404      | Page not found message         | `/*`,                    |
 
@@ -57,28 +57,73 @@ I'm creating this React portfolio repository for a few reasons. Firstly, it's a 
 
 ## DESIGN
 
-### FILL COLORS
+> Designed in Figma
 
-| APPLICATION | HEX     |
-| ----------- | ------- |
-| ACCENT      | #FF8482 |
-| BLACK       | #000    |
-| WHITE       | #FFF    |
-| BG          | #FCFCFC |
+### COLORS
 
-### SHADES OF GREY
+| FILL COLORS | HEX     | SHADES OF GREY | HEX     |
+| ----------- | ------- | -------------- | ------- |
+| ACCENT      | #FF8482 | DARKEST        | #2f2f2f |
+| BLACK       | #000    | DARK SHADE     | #A1A1A1 |
+| WHITE       | #FFF    | LIGHT SHADE    | #E9E9E9 |
+| BG          | #FCFCFC | LIGHTEST SHADE | #F2f2f2 |
 
-| APPLICATION    | HEX     |
-| -------------- | ------- |
-| DARKEST        | #2f2f2f |
-| DARK SHADE     | #A1A1A1 |
-| LIGHT SHADE    | #E9E9E9 |
-| LIGHTEST SHADE | #F2f2f2 |
-  
-### Home Page - Designed In Figma
+### Home Page
 
-Desktop Home
-  > ![Desktop Home- Byron Pantoja](https://i.imgur.com/VPrF9tw.png)
+- Profile Header
+- Contact Section
 
-Mobile Home
-  > ![Mobile Home- Byron Pantoja](https://i.imgur.com/O4sVQ7S.png)
+Home Page - Desktop
+
+> ![Desktop Home- Byron Pantoja](https://i.imgur.com/bvpxiAr.png)
+
+Home Page - Mobile
+
+> ![Mobile Home- Byron Pantoja](https://i.imgur.com/4rKih2s.png)
+
+### Projects Page
+
+- Projects Header
+- Projects Section
+
+Project Data Structure:
+
+| id      | created_at | featuredImage | name | description | repo | demo | status |
+| ------- | ---------- | ------------- | ---- | ----------- | ---- | ---- | ------ |
+| Integer | Time Stamp | Text          | Text | Text        | Text | Text | Text   |
+
+> JSON Sample
+
+```json
+projects {
+  "id": 1,
+  "created_at": 2023-06-08 10:17:32.931+00,
+  "image": "https://randomimgid.database.co/storage/v1/object/public/project-images/project-name.jpg"
+  "name": "Project Name",
+  "description": "Project Description...",
+  "repo": "https://github.com/byronPantoja/project.git",
+  "demo": "http://project.vercel.app/",
+  "status": "complete",
+}
+```
+
+Projects Page - Desktop
+
+> ![Desktop Projects- Byron Pantoja](https://i.imgur.com/K6GJs4E.png)
+
+Projects Page - Mobile
+
+> ![Mobile Projects- Byron Pantoja](https://i.imgur.com/HPOUmYb.png)
+
+### Notes Page
+
+- Notes Header
+- Notes Section
+
+Notes Page - Desktop
+
+> ![Desktop Notes- Byron Pantoja](https://i.imgur.com/F7wgYKs.png)
+
+Notes Page - Mobile
+
+> ![Mobile Notes- Byron Pantoja](https://i.imgur.com/o5MbgGK.png)
