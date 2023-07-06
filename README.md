@@ -55,6 +55,8 @@ I'm creating this React portfolio repository for a few reasons. Firstly, it's a 
 - Search bar with autocomplete
 - Animations
 
+---
+
 ## DESIGN
 
 > Designed in Figma
@@ -127,3 +129,36 @@ Notes Page - Desktop
 Notes Page - Mobile
 
 > ![Mobile Notes- Byron Pantoja](https://i.imgur.com/o5MbgGK.png)
+
+---
+
+## INITIAL SETUP
+
+### Packages
+
+```json
+"dependencies": {
+  "@vitejs/plugin-react": "^4.0.2",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "styled-components": "^6.0.2"
+},
+"devDependencies": {
+  "eslint": "^8.44.0",
+  "eslint-config-react-app": "^7.0.1",
+  "eslint-plugin-react": "^7.32.2",
+  "eslint-plugin-react-hooks": "^4.6.0",
+  "eslint-plugin-react-refresh": "^0.3.4",
+  "eslint-config-prettier": "^8.8.0",
+  "eslint-plugin-prettier": "^4.2.1",
+  "prettier": "^2.8.8",
+  "vite": "^4.4.1",
+  "vite-plugin-eslint": "^1.8.1"
+}
+```
+
+---
+
+## APP DEV
+
+### Header
