@@ -1,6 +1,6 @@
 # Byron Pantoja | Front End React Developer Portfolio
 
-> ## About Me
+> ## ABOUT ME
 >
 > I love transforming ideas into user-friendly web applications
 > using React's component-based architecture. I thrive on
@@ -19,7 +19,7 @@ I'm creating this React portfolio repository for a few reasons. Firstly, it's a 
 
 ---
 
-## Planning
+## PLANNING
 
 **WHAT DO I NEED IN MY PORTFOLIO?**
 
@@ -33,16 +33,16 @@ I'm creating this React portfolio repository for a few reasons. Firstly, it's a 
 - `Notes` page to share and have quick access to useful concepts and code snippets
 - Responsive Navigation for Desktop, Tablet, and Mobile
 
-**PAGES TABLE**
+### PAGES TABLE
 
-| PAGES    | SECTIONS                       | PATHS                      |
-| -------- | ------------------------------ | -------------------------- |
-| Home     | Profile, #Contact              | `/home`, `/home#contact`   |
-| Projects | Title, Projects Grid           | `/projects`                |
+| PAGES    | SECTIONS                       | PATHS                    |
+| -------- | ------------------------------ | ------------------------ |
+| Home     | Profile, #Contact              | `/home`, `/home#contact` |
+| Projects | Title, Projects Grid           | `/projects`              |
 | Project  | Featured Image, Title, Content | `/projects/${projectId}` |
-| Notes    | Notes                          | `/notes`, `/notes`         |
+| Notes    | Notes                          | `/notes`, `/notes`       |
 | Note     | Note                           | `/notes/${noteId}`,      |
-| 404      | Page not found message         | `/*`,                      |
+| 404      | Page not found message         | `/*`,                    |
 
 **NICE TO HAVE'S...**
 
@@ -55,4 +55,30 @@ I'm creating this React portfolio repository for a few reasons. Firstly, it's a 
 - Search bar with autocomplete
 - Animations
 
-## DESIGNING
+## DESIGN
+
+### FILL COLORS
+
+| APPLICATION | HEX     |
+| ----------- | ------- |
+| ACCENT      | #FF8482 |
+| BLACK       | #000    |
+| WHITE       | #FFF    |
+| BG          | #FCFCFC |
+
+### SHADES OF GREY
+
+| APPLICATION    | HEX     |
+| -------------- | ------- |
+| DARKEST        | #2f2f2f |
+| DARK SHADE     | #A1A1A1 |
+| LIGHT SHADE    | #E9E9E9 |
+| LIGHTEST SHADE | #F2f2f2 |
+  
+### Home Page - Designed In Figma
+
+Desktop Home
+  > ![Desktop Home- Byron Pantoja](https://i.imgur.com/VPrF9tw.png)
+
+Mobile Home
+  > ![Mobile Home- Byron Pantoja](https://i.imgur.com/O4sVQ7S.png)
