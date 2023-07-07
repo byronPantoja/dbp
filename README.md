@@ -55,6 +55,8 @@ I'm creating this React portfolio repository for a few reasons. Firstly, it's a 
 - Search bar with autocomplete
 - Animations
 
+---
+
 ## DESIGN
 
 > Designed in Figma
@@ -70,7 +72,7 @@ I'm creating this React portfolio repository for a few reasons. Firstly, it's a 
 
 ### Home Page
 
-- Profile Header
+- Profile Intro
 - Contact Section
 
 Home Page - Desktop
@@ -95,10 +97,10 @@ Project Data Structure:
 > JSON Sample
 
 ```json
-projects {
+projectsData {
   "id": 1,
   "created_at": 2023-06-08 10:17:32.931+00,
-  "image": "https://randomimgid.database.co/storage/v1/object/public/project-images/project-name.jpg"
+  "image": "https://randomimgid.database.co/storage/v1/object/public/project-images/project-name.jpg",
   "name": "Project Name",
   "description": "Project Description...",
   "repo": "https://github.com/byronPantoja/project.git",
@@ -120,6 +122,24 @@ Projects Page - Mobile
 - Notes Header
 - Notes Section
 
+Notes Data Structure:
+
+| id      | created_at | title | content | tags |
+| ------- | ---------- | ----- | ------- | ---- |
+| Integer | Time Stamp | Text  | Text    | Text |
+
+> JSON Sample
+
+```json
+notesData {
+  "id": 1,
+  "created_at": 2023-06-08 10:17:32.931+00,
+  "title": "Note Title",
+  "content": "Content...",
+  "tags": "tag-1, tag-2",
+}
+```
+
 Notes Page - Desktop
 
 > ![Desktop Notes- Byron Pantoja](https://i.imgur.com/F7wgYKs.png)
@@ -127,3 +147,94 @@ Notes Page - Desktop
 Notes Page - Mobile
 
 > ![Mobile Notes- Byron Pantoja](https://i.imgur.com/o5MbgGK.png)
+
+---
+
+## INITIAL SETUP
+
+### Packages
+
+```json
+"dependencies": {
+  "@vitejs/plugin-react": "^4.0.2",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "styled-components": "^6.0.2"
+},
+"devDependencies": {
+  "eslint": "^8.44.0",
+  "eslint-config-react-app": "^7.0.1",
+  "eslint-plugin-react": "^7.32.2",
+  "eslint-plugin-react-hooks": "^4.6.0",
+  "eslint-plugin-react-refresh": "^0.3.4",
+  "eslint-config-prettier": "^8.8.0",
+  "eslint-plugin-prettier": "^4.2.1",
+  "prettier": "^2.8.8",
+  "vite": "^4.4.1",
+  "vite-plugin-eslint": "^1.8.1"
+}
+```
+
+### Checklist
+
+- [x] Set up React+Vite_Styled Components and make sure it's rendering.
+- [x] create folders:
+
+  ```zsh
+    cd /app
+    mkdir pages styles ui
+  ```
+
+- [x] create new files in `/pages`:
+
+  ```zsh
+    cd /pages
+    touch Projects.jsx Notes.jsx PageNotFound.jsx
+  ```
+
+- [ ] Install + set up React Router: `npm i react-router-dom@latest`
+
+- [ ] Build out Home Page `"/"`
+
+  - [ ] Header
+    - [ ] MainNav
+    - [ ] Logo
+  - [ ] Profile Intro
+    - [ ] SubHeading
+    - [ ] Heading
+    - [ ] LogoGrid - Tech Stack
+    - [ ] TextArea - Intro paragraph
+    - [ ] LogoGrid - Socials
+    - [ ] ProfilePhoto
+  - [ ] Contact Section
+    - [ ] Heading
+    - [ ] SubHeading
+    - [ ] Form
+      - [ ] Inputs - `name`, `email`, `Your Message`
+      - [ ] Button - `Submit`
+    - [ ] Add background image
+
+- [ ] Build out Projects Page `"/projects"`
+
+  - [ ] Header
+    - [ ] Heading - Projects
+    - [ ] ProjectLayout
+      - [ ] ProjectCard
+        - [ ] data: `name`,`description`, `status`, `repo`, `demo`, `image`
+
+- [ ] Build out Notes Page `"/notes"`
+
+  - [ ] Notes Layout - 2 columns
+    - [ ] Header
+      - [ ] Heading - Notes (order: 1)
+      - [ ] Quote + author (order: 2)
+    - [ ] NotesCard
+      - [ ] Data (order: 1): `date`
+      - [ ] Data (order: 2): `tags`, `title`, `content`
+    - [ ] Button: Read More
+
+---
+
+## APP DEV
+
+### Header
