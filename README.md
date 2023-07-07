@@ -72,7 +72,7 @@ I'm creating this React portfolio repository for a few reasons. Firstly, it's a 
 
 ### Home Page
 
-- Profile Header
+- Profile Intro
 - Contact Section
 
 Home Page - Desktop
@@ -97,10 +97,10 @@ Project Data Structure:
 > JSON Sample
 
 ```json
-projects {
+projectsData {
   "id": 1,
   "created_at": 2023-06-08 10:17:32.931+00,
-  "image": "https://randomimgid.database.co/storage/v1/object/public/project-images/project-name.jpg"
+  "image": "https://randomimgid.database.co/storage/v1/object/public/project-images/project-name.jpg",
   "name": "Project Name",
   "description": "Project Description...",
   "repo": "https://github.com/byronPantoja/project.git",
@@ -121,6 +121,24 @@ Projects Page - Mobile
 
 - Notes Header
 - Notes Section
+
+Notes Data Structure:
+
+| id      | created_at | title | content | tags |
+| ------- | ---------- | ----- | ------- | ---- |
+| Integer | Time Stamp | Text  | Text    | Text |
+
+> JSON Sample
+
+```json
+notesData {
+  "id": 1,
+  "created_at": 2023-06-08 10:17:32.931+00,
+  "title": "Note Title",
+  "content": "Content...",
+  "tags": "tag-1, tag-2",
+}
+```
 
 Notes Page - Desktop
 
@@ -156,6 +174,64 @@ Notes Page - Mobile
   "vite-plugin-eslint": "^1.8.1"
 }
 ```
+
+### Checklist
+
+- [x] Set up React+Vite_Styled Components and make sure it's rendering.
+- [x] create folders:
+
+  ```zsh
+    cd /app
+    mkdir pages styles ui
+  ```
+
+- [x] create new files in `/pages`:
+
+  ```zsh
+    cd /pages
+    touch Projects.jsx Notes.jsx PageNotFound.jsx
+  ```
+
+- [ ] Install + set up React Router: `npm i react-router-dom@latest`
+
+- [ ] Build out Home Page `"/"`
+
+  - [ ] Header
+    - [ ] MainNav
+    - [ ] Logo
+  - [ ] Profile Intro
+    - [ ] SubHeading
+    - [ ] Heading
+    - [ ] LogoGrid - Tech Stack
+    - [ ] TextArea - Intro paragraph
+    - [ ] LogoGrid - Socials
+    - [ ] ProfilePhoto
+  - [ ] Contact Section
+    - [ ] Heading
+    - [ ] SubHeading
+    - [ ] Form
+      - [ ] Inputs - `name`, `email`, `Your Message`
+      - [ ] Button - `Submit`
+    - [ ] Add background image
+
+- [ ] Build out Projects Page `"/projects"`
+
+  - [ ] Header
+    - [ ] Heading - Projects
+    - [ ] ProjectLayout
+      - [ ] ProjectCard
+        - [ ] data: `name`,`description`, `status`, `repo`, `demo`, `image`
+
+- [ ] Build out Notes Page `"/notes"`
+
+  - [ ] Notes Layout - 2 columns
+    - [ ] Header
+      - [ ] Heading - Notes (order: 1)
+      - [ ] Quote + author (order: 2)
+    - [ ] NotesCard
+      - [ ] Data (order: 1): `date`
+      - [ ] Data (order: 2): `tags`, `title`, `content`
+    - [ ] Button: Read More
 
 ---
 
