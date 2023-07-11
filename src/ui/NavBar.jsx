@@ -1,6 +1,6 @@
 import MainNav from "./MainNav";
 
-function Header() {
+function NavBar() {
   return (
     <div>
       <MainNav />
@@ -8,4 +8,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default NavBar;

@@ -11,10 +11,12 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route index element={<Navigate replace to="home" />} />;
-          <Route path="/home" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/notes" element={<Notes />} />
+          <Route element={<AppLayout />}>
+            <Route index element={<Navigate replace to="home" />} />;
+            <Route path="home" element={<Home />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="notes" element={<Notes />} />
+          </Route>
           <Route path="*" element={<PageNotFound />} />;
         </Routes>
       </BrowserRouter>

@@ -1,7 +1,5 @@
-import MainNav from "../ui/MainNav";
-
 function Home() {
-  return <MainNav />;
+  return <div>Home</div>;
 }
 
 export default Home;

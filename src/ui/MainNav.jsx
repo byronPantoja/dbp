@@ -5,11 +5,6 @@ function MainNav() {
     <nav>
       <ul>
         <li>
-          <NavLink to="/">
-            <span>Home</span>
-          </NavLink>
-        </li>
-        <li>
           <NavLink to="/projects">
             <span>Projects</span>
           </NavLink>
