@@ -199,7 +199,7 @@ Notes Page - Mobile
   - [x] Header
     - [x] Logo
     - [x] Mobile Header
-  - [ ] Profile Intro
+  - [ ] Dev Profile
     - [ ] SubHeading
     - [ ] Heading
     - [ ] LogoGrid - Tech Stack
