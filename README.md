@@ -196,9 +196,9 @@ Notes Page - Mobile
 
 - [ ] Build out Home Page `"/"`
 
-  - [ ] Header
-    - [ ] MainNav
-    - [ ] Logo
+  - [x] Header
+    - [x] Logo
+    - [x] Mobile Header
   - [ ] Profile Intro
     - [ ] SubHeading
     - [ ] Heading
