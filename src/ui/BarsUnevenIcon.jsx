@@ -7,9 +7,9 @@ function BarsUnevenIcon() {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path d="M25 15.5H5" stroke="#191919" stroke-width="1.5" />
-      <path d="M25 8.5H0" stroke="#191919" stroke-width="1.5" />
-      <path d="M25 1.5H10" stroke="#191919" stroke-width="1.5" />
+      <path d="M25 15.5H5" stroke="#191919" strokeWidth="1.5" />
+      <path d="M25 8.5H0" stroke="#191919" strokeWidth="1.5" />
+      <path d="M25 1.5H10" stroke="#191919" strokeWidth="1.5" />
     </svg>
   );
 }
