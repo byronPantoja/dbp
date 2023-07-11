@@ -1,6 +1,4 @@
-import { createGlobalStyle } from "styled-components";
-
-const GlobalStyles = createGlobalStyle`
+const GlobalStyles = `
 :root {
     &, &.light-mode {
         /* Fill Colors */

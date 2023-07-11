@@ -1,29 +1,16 @@
 import { Outlet } from "react-router-dom";
-import MainNav from "./MainNav";
-import { styled } from "styled-components";
-
-const StyledAppLayout = styled.div``;
-
-const Main = styled.main``;
-
-const Container = styled.div`
-  max-width: 120rem;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 3.2rem;
-`;
+import Header from "./Header";
+import Footer from "./Footer";
 
 function AppLayout() {
   return (
-    <StyledAppLayout>
-      <MainNav />
-      <Main>
-        <Container>
-          <Outlet />
-        </Container>
-      </Main>
-    </StyledAppLayout>
+    <>
+      <Header />
+      <main>
+        <Outlet />
+      </main>
+      <Footer />
+    </>
   );
 }
 
