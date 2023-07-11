@@ -36,10 +36,7 @@ function Header() {
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
             <NavLink key={item.page} to={item.path}>
-              <span
-                className="text - fill - black; text-sm font-semibold leading-6
-"
-              >
+              <span className="text-sm font-semibold leading-6 text-fill-black">
                 {item.page}
               </span>
             </NavLink>
