@@ -5,6 +5,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        specialBg: "#000",
         pink: {
           main: "#ff8482",
           light: "#ff9d9b",
