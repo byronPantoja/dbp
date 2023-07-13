@@ -154,25 +154,41 @@ Notes Page - Mobile
 
 ### Packages
 
+> _updated_
+
 ```json
 "dependencies": {
-  "@vitejs/plugin-react": "^4.0.2",
-  "react": "^18.2.0",
-  "react-dom": "^18.2.0",
-  "styled-components": "^6.0.2"
-},
-"devDependencies": {
-  "eslint": "^8.44.0",
-  "eslint-config-react-app": "^7.0.1",
-  "eslint-plugin-react": "^7.32.2",
-  "eslint-plugin-react-hooks": "^4.6.0",
-  "eslint-plugin-react-refresh": "^0.3.4",
-  "eslint-config-prettier": "^8.8.0",
-  "eslint-plugin-prettier": "^4.2.1",
-  "prettier": "^2.8.8",
-  "vite": "^4.4.1",
-  "vite-plugin-eslint": "^1.8.1"
-}
+      "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+      "@headlessui/react": "^1.7.15",
+      "@heroicons/react": "^2.0.18",
+      "@tailwindcss/aspect-ratio": "^0.4.2",
+      "@tailwindcss/container-queries": "^0.1.1",
+      "@tailwindcss/forms": "^0.5.3",
+      "@tailwindcss/typography": "^0.5.9",
+      "prettier-plugin-tailwindcss": "^0.3.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^4.10.1",
+      "react-router-dom": "^6.14.1"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.37",
+      "@types/react-dom": "^18.0.11",
+      "@vitejs/plugin-react": "^4.0.2",
+      "autoprefixer": "^10.4.14",
+      "eslint": "^8.44.0",
+      "eslint-config-prettier": "^8.8.0",
+      "eslint-config-react-app": "^7.0.1",
+      "eslint-plugin-prettier": "^4.2.1",
+      "eslint-plugin-react": "^7.32.2",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "eslint-plugin-react-refresh": "^0.3.4",
+      "postcss": "^8.4.25",
+      "prettier": "^2.8.8",
+      "tailwindcss": "^3.3.2",
+      "vite": "^4.4.1",
+      "vite-plugin-eslint": "^1.8.1"
+    }
 ```
 
 ### Checklist
