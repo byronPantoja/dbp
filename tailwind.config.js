@@ -13,7 +13,7 @@ export default {
           lighter: "#ffdada",
           dark: "#e67775",
           darker: "#994f4e",
-          dropshadow: "#ffdada30",
+          dropshadow: "#ffffff30",
         },
         blue: {
           main: "#403b8f",
