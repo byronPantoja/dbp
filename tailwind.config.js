@@ -4,6 +4,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        laptopBg: "url('laptop-bg.svg')",
+      },
       colors: {
         transparent: "transparent",
         current: "currentColor",
@@ -13,7 +16,6 @@ export default {
           lighter: "#ffdada",
           dark: "#e67775",
           darker: "#994f4e",
-          dropshadow: "#ffffff30",
         },
         blue: {
           main: "#403b8f",

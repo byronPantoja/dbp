@@ -22,7 +22,7 @@ function Header() {
   return (
     <header
       className={classNames(
-        scrollPosition > 0 ? "shadow-xl shadow-pink-dropshadow" : "shadow-none",
+        scrollPosition > 0 ? "drop-shadow-3xl shadow-2xl" : "shadow-none",
         "sticky top-0 z-20 bg-white transition-shadow"
       )}
     >
