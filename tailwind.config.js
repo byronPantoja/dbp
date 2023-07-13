@@ -5,13 +5,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        specialBg: "#000",
+        transparent: "transparent",
+        current: "currentColor",
         pink: {
           main: "#ff8482",
           light: "#ff9d9b",
           lighter: "#ffdada",
           dark: "#e67775",
           darker: "#994f4e",
+          dropshadow: "#ffdada30",
         },
         blue: {
           main: "#403b8f",
