@@ -215,13 +215,13 @@ Notes Page - Mobile
   - [x] Header
     - [x] Logo
     - [x] Mobile Header
-  - [ ] Dev Profile
-    - [ ] SubHeading
-    - [ ] Heading
-    - [ ] LogoGrid - Tech Stack
-    - [ ] TextArea - Intro paragraph
-    - [ ] LogoGrid - Socials
-    - [ ] ProfilePhoto
+  - [x] Dev Profile
+    - [x] SubHeading
+    - [x] Heading
+    - [x] LogoGrid - Tech Stack
+    - [x] TextArea - Intro paragraph
+    - [x] LogoGrid - Socials
+    - [x] ProfilePhoto
   - [ ] Contact Section
     - [ ] Heading
     - [ ] SubHeading
