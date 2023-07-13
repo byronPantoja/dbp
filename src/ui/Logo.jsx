@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function Logo() {
   return (
     <NavLink to="/">
-      <h1>byronpantoja.com</h1>
+      <h1 className="text-pink-main hover:font-bold">byronpantoja.com</h1>
     </NavLink>
   );
 }
