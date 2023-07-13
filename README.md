@@ -210,7 +210,7 @@ Notes Page - Mobile
 
 - [ ] Install + set up React Router: `npm i react-router-dom@latest`
 
-- [ ] Build out Home Page `"/"`
+- [x] Build out Home Page `"/"`
 
   - [x] Header
     - [x] Logo
@@ -222,13 +222,13 @@ Notes Page - Mobile
     - [x] TextArea - Intro paragraph
     - [x] LogoGrid - Socials
     - [x] ProfilePhoto
-  - [ ] Contact Section
-    - [ ] Heading
-    - [ ] SubHeading
-    - [ ] Form
-      - [ ] Inputs - `name`, `email`, `Your Message`
-      - [ ] Button - `Submit`
-    - [ ] Add background image
+  - [x] Contact Section
+    - [x] Heading
+    - [x] SubHeading
+    - [x] Form
+      - [x] Inputs - `name`, `email`, `Your Message`
+      - [x] Button - `Submit`
+    - [x] Add background image
 
 - [ ] Build out Projects Page `"/projects"`
 
