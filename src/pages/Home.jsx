@@ -1,46 +1,56 @@
-import REACT from "../ui/tech-icons/react-icon.svg";
-import HTML from "../ui/tech-icons/html-icon.svg";
-import CSS from "../ui/tech-icons/css-icon.svg";
-import JS from "../ui/tech-icons/js-icon.svg";
-import NODEJS from "../ui/tech-icons/nodejs-icon.svg";
-import TAILWINDCSS from "../ui/tech-icons/tailwindcss-icon.svg";
-import SUPABASE from "../ui/tech-icons/supabase-icon.svg";
-import VITE from "../ui/tech-icons/vite-icon.svg";
 import SocialLinks from "../ui/socials/SocialLinks";
+import css3 from "./../images/css3.svg";
+import html5 from "./../images/html5.svg";
+import git from "./../images/git.svg";
+import github from "./../images/github.svg";
+import javascript from "./../images/javascript.svg";
+import nodejs from "./../images/nodejs.svg";
+import reactjs from "./../images/reactjs.svg";
+import supabase from "./../images/supabase.svg";
+import tailwindcss from "./../images/tailwindcss.svg";
+import vite from "./../images/vite.svg";
 import ContactForm from "../ui/ContactForm";
 
 const techStack = [
   {
     name: "react",
-    svg: REACT,
+    svg: reactjs,
   },
   {
     name: "tailwindcss",
-    svg: TAILWINDCSS,
+    svg: tailwindcss,
   },
   {
     name: "vite",
-    svg: VITE,
+    svg: vite,
   },
   {
     name: "nodejs",
-    svg: NODEJS,
+    svg: nodejs,
   },
   {
     name: "supabase",
-    svg: SUPABASE,
+    svg: supabase,
   },
   {
     name: "css",
-    svg: CSS,
+    svg: css3,
   },
   {
     name: "js",
-    svg: JS,
+    svg: javascript,
   },
   {
     name: "html",
-    svg: HTML,
+    svg: html5,
+  },
+  {
+    name: "git",
+    svg: git,
+  },
+  {
+    name: "github",
+    svg: github,
   },
 ];
 
@@ -55,10 +65,10 @@ function Home() {
                 <span className="text-2xl font-medium text-gray-500">
                   Hi, my name is Byron. I'm a Front End
                 </span>
-                <p className="mt-2 text-6xl tracking-tight text-black sm:text-5xl">
-                  <h1 className="  sm:text-7xl lg:text-6xl">React Developer</h1>
-                </p>
-                <div className="mt-4 flex max-w-sm gap-2.5">
+                <div className="mt-2 text-6xl tracking-tight text-black sm:text-5xl">
+                  <h1 className="sm:text-7xl lg:text-6xl">React Developer</h1>
+                </div>
+                <div className="mt-4 flex max-w-md gap-2.5">
                   {techStack.map((icon) => (
                     <img
                       key={icon.name}
