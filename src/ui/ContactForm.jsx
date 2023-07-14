@@ -1,17 +1,3 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 import {
   BuildingOffice2Icon,
   EnvelopeIcon,
@@ -56,7 +42,7 @@ function ContactForm() {
                 <dd>
                   <a
                     className="hover:text-gray-900"
-                    href="tel:+1 (555) 234-5678"
+                    href="tel:+1 63 (998) 511-5118"
                   >
                     +1 63 (998) 511-5118
                   </a>

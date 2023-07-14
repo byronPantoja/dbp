@@ -230,13 +230,13 @@ Notes Page - Mobile
       - [x] Button - `Submit`
     - [x] Add background image
 
-- [ ] Build out Projects Page `"/projects"`
+- [x] Build out Projects Page `"/projects"`
 
-  - [ ] Header
-    - [ ] Heading - Projects
-    - [ ] ProjectLayout
-      - [ ] ProjectCard
-        - [ ] data: `name`,`description`, `status`, `repo`, `demo`, `image`
+  - [x] Header
+    - [x] Heading - Projects
+    - [x] ProjectLayout
+      - [x] ProjectCard
+        - [x] data: `name`,`description`, `status`, `repo`, `demo`, `image`
 
 - [ ] Build out Notes Page `"/notes"`
 

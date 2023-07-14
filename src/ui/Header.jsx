@@ -5,7 +5,6 @@ import { XMarkIcon } from "@heroicons/react/24/outline";
 import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
 import BarsUnevenIcon from "./BarsUnevenIcon";
-import { useScrollPosition } from "../hooks/useScrollPosition";
 
 const navigation = [
   { page: "Projects", path: "/projects" },
@@ -14,18 +13,9 @@ const navigation = [
 
 function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  function classNames(...classes) {
-    return classes.filter(Boolean).join(" ");
-  }
-  const scrollPosition = useScrollPosition();
 
   return (
-    <header
-      className={classNames(
-        scrollPosition > 0 ? "drop-shadow-3xl shadow-2xl" : "shadow-none",
-        "sticky top-0 z-20 bg-white transition-shadow"
-      )}
-    >
+    <header className="bg-white transition-shadow">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"

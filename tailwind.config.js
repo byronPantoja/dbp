@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        laptopBg: "url('laptop-bg.svg')",
+        laptopBg: "url('./src/images/laptop-bg.svg')",
       },
       colors: {
         transparent: "transparent",
