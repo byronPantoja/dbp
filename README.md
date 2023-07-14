@@ -124,9 +124,9 @@ Projects Page - Mobile
 
 Notes Data Structure:
 
-| id      | created_at | title | content | tags |
-| ------- | ---------- | ----- | ------- | ---- |
-| Integer | Time Stamp | Text  | Text    | Text |
+| id      | created_at | title | content | tags | image |
+| ------- | ---------- | ----- | ------- | ---- | ----- |
+| Integer | Time Stamp | Text  | Text    | Text | Text  |
 
 > JSON Sample
 
@@ -137,6 +137,7 @@ notesData {
   "title": "Note Title",
   "content": "Content...",
   "tags": "tag-1, tag-2",
+  "image": "text",
 }
 ```
 

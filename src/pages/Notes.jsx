@@ -1,7 +1,7 @@
 const posts = [
   {
     id: 1,
-    postTitle: "Test",
+    title: "Test",
     href: "#",
     description: "test description",
     imageUrl:
@@ -34,10 +34,10 @@ function Notes() {
                 <div>
                   <div className="flex items-center gap-x-4 text-xs">
                     <a
-                      href={post.category.href}
+                      href={post.tags.href}
                       className="relative z-10 rounded-full py-1.5 pr-3 font-medium text-grey-dark hover:text-pink-main"
                     >
-                      {post.category.postTitle}
+                      {post.tags.title}
                     </a>
                   </div>
                   <div className="group relative max-w-xl">

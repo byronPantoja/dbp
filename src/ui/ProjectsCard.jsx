@@ -1,8 +1,7 @@
 import { NavLink } from "react-router-dom";
-import useProjects from "../hooks/useProjects";
+import useProjects from "./../features/projects/useProjects";
 import github from "./../images/github.svg";
 import vercel from "./../images/vercel.svg";
-import complete from "./../images/complete.svg";
 import { format } from "date-fns";
 
 function ProjectsCard() {
@@ -28,29 +27,24 @@ function ProjectsCard() {
                 <p className="my-5 line-clamp-3 text-sm leading-6 text-gray-600">
                   {project.description}
                 </p>
-                <p className="text-xs">
-                  {" "}
-                  Started on{" "}
-                  {format(new Date(project.startDate), "EEE, MMM dd yyyy, p")}
-                </p>
-                <p className="text-xs">
-                  {" "}
-                  Completed on{" "}
-                  {format(new Date(project.endDate), "EEE, MMM dd yyyy, p")}
-                </p>
               </div>
 
-              <ul className="grid-cols-1 pt-10 text-xs">
+              <ul className="grid-cols-1 pt-5 text-xs">
                 <li className="my-3">
                   <div className="flex items-center justify-start gap-8">
-                    <img
-                      src={complete}
-                      alt="Project Complete"
-                      aria-hidden="true"
-                      className="h-6 w-6"
-                    />
                     <p>Project Status:</p>
                     <h3>{project.status}</h3>
+                    <p className="text-xs">
+                      Started on
+                      {format(
+                        new Date(project.startDate),
+                        "EEE, MMM dd yyyy, p"
+                      )}
+                    </p>
+                    <p className="text-xs">
+                      Completed on
+                      {format(new Date(project.endDate), "EEE, MMM dd yyyy, p")}
+                    </p>
                   </div>
                 </li>
                 <li className="my-3">
@@ -62,7 +56,7 @@ function ProjectsCard() {
                       src={github}
                       alt="github"
                       aria-hidden="true"
-                      className="h-6 w-6"
+                      className="h-4 w-4"
                     />
                     <p>{project.repo}</p>
                   </NavLink>
@@ -76,7 +70,7 @@ function ProjectsCard() {
                       src={vercel}
                       alt="vercel"
                       aria-hidden="true"
-                      className="h-6 w-6"
+                      className="h-4 w-4"
                     />
                     <p>{project.demo}</p>
                   </NavLink>
@@ -84,7 +78,7 @@ function ProjectsCard() {
               </ul>
             </div>
             <div>
-              <img src={`${project.featuredImage}`} alt="test" />
+              <img src={project.featuredImage} alt="test" />
             </div>
           </div>
         ))}
