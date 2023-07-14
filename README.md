@@ -208,7 +208,7 @@ Notes Page - Mobile
     touch Projects.jsx Notes.jsx PageNotFound.jsx
   ```
 
-- [ ] Install + set up React Router: `npm i react-router-dom@latest`
+- [x] Install + set up React Router: `npm i react-router-dom@latest`
 
 - [x] Build out Home Page `"/"`
 
@@ -238,16 +238,19 @@ Notes Page - Mobile
       - [x] ProjectCard
         - [x] data: `name`,`description`, `status`, `repo`, `demo`, `image`
 
-- [ ] Build out Notes Page `"/notes"`
+- [x] Build out Notes Page `"/notes"`
 
-  - [ ] Notes Layout - 2 columns
-    - [ ] Header
-      - [ ] Heading - Notes (order: 1)
+  - [x] Notes Layout - 2 columns
+    - [x] Header
+      - [x] Heading - Notes (order: 1)
       - [ ] Quote + author (order: 2)
-    - [ ] NotesCard
-      - [ ] Data (order: 1): `date`
-      - [ ] Data (order: 2): `tags`, `title`, `content`
+    - [x] NotesCard
+      - [x] Data (order: 1): `date`
+      - [x] Data (order: 2): `tags`, `title`, `content`
     - [ ] Button: Read More
+
+- [ ] Add projects functionality
+- [ ] Add notes functionality
 
 ---
 
