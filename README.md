@@ -250,11 +250,9 @@ Notes Page - Mobile
       - [x] Data (order: 2): `tags`, `title`, `content`
     - [ ] Button: Read More
 
-- [ ] Add projects functionality
-- [ ] Add notes functionality
+- [x] Add Auth + Protected Route(s)
+- [ ] Add an Admin Dashboard where I can manage Notes and Projects
+  - [ ] Add CRUD functionality for Projects
+  - [ ] Add CRUD functionality for Notes
 
 ---
-
-## APP DEV
-
-### Header

@@ -9,7 +9,7 @@ import BarsUnevenIcon from "./BarsUnevenIcon";
 const navigation = [
   { page: "Projects", path: "/projects" },
   { page: "Notes", path: "/notes" },
-  { page: "Login", path: "/login" },
+  { page: "Signin", path: "/signin" },
 ];
 
 function Header() {
