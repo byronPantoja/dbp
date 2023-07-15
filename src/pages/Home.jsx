@@ -68,13 +68,13 @@ function Home() {
                 <div className="mt-2 text-6xl tracking-tight text-black sm:text-5xl">
                   <h1 className="sm:text-7xl lg:text-6xl">React Developer</h1>
                 </div>
-                <div className="mt-4 flex max-w-md gap-2.5">
+                <div className="mt-6 flex max-w-md gap-2.5">
                   {techStack.map((icon) => (
                     <img
                       key={icon.name}
                       src={icon.svg}
                       alt={`${icon.name}-icon`}
-                      className="h-[2rem] text-sm"
+                      className="h-[22.5px] text-sm md:h-[25px] lg:h-[30px]"
                     />
                   ))}
                 </div>
