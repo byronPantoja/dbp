@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Notes from "./pages/Notes";
 import AppLayout from "./ui/AppLayout";
+import Login from "./pages/Login";
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -27,6 +28,7 @@ function App() {
             <Route path="home" element={<Home />} />
             <Route path="projects" element={<Projects />} />
             <Route path="notes" element={<Notes />} />
+            <Route path="login" element={<Login />} />
           </Route>
           <Route path="*" element={<PageNotFound />} />;
         </Routes>
