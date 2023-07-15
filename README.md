@@ -237,7 +237,7 @@ Notes Page - Mobile
     - [x] Heading - Projects
     - [x] ProjectLayout
       - [x] ProjectCard
-        - [x] data: `name`,`description`, `status`, `repo`, `demo`, `image`
+        - [x] data: `name`, `description`, `status`, `repo`, `demo`, `image`
 
 - [x] Build out Notes Page `"/notes"`
 
