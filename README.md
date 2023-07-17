@@ -253,8 +253,9 @@ Notes Page - Mobile
 - [x] Add Auth + Protected Route(s)
 - [ ] Add an Admin Dashboard where I can manage Notes and Projects
   - [ ] Add CRUD functionality for Notes
-    > Prioritizing `Notes` page so that I can share my learning and have a reference to things all in one place
     - [ ]
   - [ ] Add CRUD functionality for Projects
+
+> Prioritizing getting more projects done to add to my portfolio before...
 
 ---

@@ -39,9 +39,9 @@ function NotesList() {
             </div>
             <div className="mt-5 flex border-b border-gray-900/5 pt-6">
               <div className="relative mb-5 flex items-center gap-x-4">
-                <NavLink to="/">
+                {/* <NavLink to="/">
                   <span className="text-sm text-grey-darker">Read More...</span>
-                </NavLink>
+                </NavLink> */}
               </div>
             </div>
           </div>
