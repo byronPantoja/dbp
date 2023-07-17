@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import SigninForm from "../features/authentication/SigninForm";
 
 function Signin() {
@@ -14,12 +15,12 @@ function Signin() {
 
         <p className="mt-10 text-center text-sm text-gray-500">
           {`Not Byron? `}
-          <a
-            href="/projects"
+          <NavLink
+            to="/projects"
             className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
           >
-            No worries, checkout his projects!
-          </a>
+            <span>No worries, checkout his projects!</span>
+          </NavLink>
         </p>
       </div>
     </div>
