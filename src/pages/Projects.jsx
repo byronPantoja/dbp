@@ -1,4 +1,4 @@
-import ProjectsCard from "../ui/ProjectsCard";
+import ProjectsList from "../features/projects/ProjectsList";
 
 function Projects() {
   return (
@@ -8,7 +8,7 @@ function Projects() {
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Projects
           </h2>
-          <ProjectsCard />
+          <ProjectsList />
         </div>
       </div>
     </div>

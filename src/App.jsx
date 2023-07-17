@@ -8,7 +8,7 @@ import Notes from "./pages/Notes";
 import AppLayout from "./ui/AppLayout";
 import Signin from "./pages/Signin";
 import Admin from "./pages/Admin";
-import ProtectedRoute from "./ui/ProtectedRoute";
+import ProtectedRoute from "./features/projects/ProtectedRoute";
 
 const queryClient = new QueryClient({
   defaultOptions: {

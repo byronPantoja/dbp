@@ -90,9 +90,9 @@ Home Page - Mobile
 
 Project Data Structure:
 
-| id      | created_at | featuredImage | name | description | repo | demo | status |
-| ------- | ---------- | ------------- | ---- | ----------- | ---- | ---- | ------ |
-| Integer | Time Stamp | Text          | Text | Text        | Text | Text | Text   |
+| id      | created_at | startDate | featuredImage | name | description | repo | demo | status |
+| ------- | ---------- | --------- | ------------- | ---- | ----------- | ---- | ---- | ------ |
+| Integer | Time Stamp | Text      | Text          | Text | Text        | Text | Text | Text   |
 
 > JSON Sample
 
@@ -252,7 +252,9 @@ Notes Page - Mobile
 
 - [x] Add Auth + Protected Route(s)
 - [ ] Add an Admin Dashboard where I can manage Notes and Projects
-  - [ ] Add CRUD functionality for Projects
   - [ ] Add CRUD functionality for Notes
+    > Prioritizing `Notes` page so that I can share my learning and have a reference to things all in one place
+    - [ ]
+  - [ ] Add CRUD functionality for Projects
 
 ---

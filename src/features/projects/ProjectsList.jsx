@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom";
-import useProjects from "./../features/projects/useProjects";
-import github from "./../images/github.svg";
-import vercel from "./../images/vercel.svg";
+import useProjects from "./useProjects";
+import github from "../../images/github.svg";
+import vercel from "../../images/vercel.svg";
 import { format } from "date-fns";
 
-function ProjectsCard() {
+function ProjectsList() {
   const { isLoading, projects } = useProjects();
   if (isLoading) return <p>Loading....</p>;
 
@@ -35,15 +35,11 @@ function ProjectsCard() {
                     <p>Project Status:</p>
                     <h3>{project.status}</h3>
                     <p className="text-xs">
-                      Started on
+                      Started on{" "}
                       {format(
                         new Date(project.startDate),
                         "EEE, MMM dd yyyy, p"
                       )}
-                    </p>
-                    <p className="text-xs">
-                      Completed on
-                      {format(new Date(project.endDate), "EEE, MMM dd yyyy, p")}
                     </p>
                   </div>
                 </li>
@@ -63,7 +59,7 @@ function ProjectsCard() {
                 </li>
                 <li>
                   <NavLink
-                    to={projects.demo}
+                    to={project.demo}
                     className="flex items-center justify-start gap-8"
                   >
                     <img
@@ -87,4 +83,4 @@ function ProjectsCard() {
   );
 }
 
-export default ProjectsCard;
+export default ProjectsList;
