@@ -9,7 +9,7 @@ import reactjs from "./../images/reactjs.svg";
 import supabase from "./../images/supabase.svg";
 import tailwindcss from "./../images/tailwindcss.svg";
 import vite from "./../images/vite.svg";
-import ContactForm from "../ui/ContactForm";
+// import ContactForm from "../ui/ContactForm";
 
 const techStack = [
   {
@@ -103,9 +103,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div>
-          <ContactForm />
-        </div>
+        <div>{/* <ContactForm /> */}</div>
       </section>
     </>
   );
