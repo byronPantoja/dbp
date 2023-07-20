@@ -45,7 +45,7 @@ function ProjectsList() {
                 </li>
                 <li className="my-3">
                   <NavLink
-                    to={projects.demo}
+                    to={projects.repo}
                     className="flex items-center justify-start gap-8"
                   >
                     <img
